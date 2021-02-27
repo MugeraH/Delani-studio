@@ -150,7 +150,7 @@ body {
   position: absolute;
   top: 90px;
   left: 70px;
-
+  display: none;
 }
 
 .portfolio img {
