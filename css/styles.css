@@ -30,3 +30,12 @@ body {
 .about{
   padding: 0px 120px;
 }
+
+.services{
+  height: 60vh;
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
