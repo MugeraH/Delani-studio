@@ -11,8 +11,7 @@ body {
   font-family: "Roboto", sans-serif;
   height: 100%;
   width: 100%;
-   text-align: center;
-  
+  text-align: center;
 }
 
 .header {
@@ -23,50 +22,88 @@ body {
   background-repeat: no-repeat;
   position: relative;
   color: white;
-  display: none;
-
 }
 
-.about{
+.about {
   padding: 0px 120px;
-  display: none;
 }
 
-.services{
+.services {
   height: 60vh;
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  display: none;
-}
-.work{
-
+  /* display: none; */
 }
 
-.work img{
+.work {
+}
+.work img {
   height: 100px;
 }
-.card{
-border: none;
-display: flex;
-justify-content: center;
-align-items: center;
+.card {
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.card-hidden{
+.card-hidden {
   display: none;
 }
 
-.portfolio .row{
+.portfolio {
+  /* display: none; */
+}
+
+.portfolio .row {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.portfolio .row .col-md-12{
+
+.portfolio img {
+  height: 210px;
+  margin: 14px;
+}
+
+.contactForm {
+  height: 80vh;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contactForm .row {
+  display: flex;
+  justify-content: center;
+  margin: 0px 150px;
 
 }
-.portfolio img{
-height: 210px;
-margin: 14px;
+.col-md-6{
+  width: 40%;
+  margin-bottom: 30px;
+  
+}
+.col-md-6 input {
+  background:transparent;
+
+  color: #fff;
+}
+.contactForm textarea {
+  width: 70%;
+  background: transparent;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contactForm button {
+  width: 100px;
+  justify-self: flex-start;
+}
+.form-control::-webkit-input-placeholder { 
+  color: white; 
 }
