@@ -11,10 +11,9 @@ body {
   font-family: "Roboto", sans-serif;
   height: 100%;
   width: 100%;
+   text-align: center;
+  
 }
-/* div{
-  height: 40vh;
-} */
 
 .header {
   height: 100vh;
@@ -42,17 +41,32 @@ body {
   color: #fff;
   display: none;
 }
-.card-hidden{
-  display: none;
+.work{
+
+}
+
+.work img{
+  height: 100px;
 }
 .card{
 border: none;
 display: flex;
 justify-content: center;
 align-items: center;
+}
+.card-hidden{
+  display: none;
+}
+
+.portfolio .row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio .row .col-md-12{
 
 }
-.work img{
-  height: 100px;
-  width: 100px;
+.portfolio img{
+height: 210px;
+margin: 14px;
 }
