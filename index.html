@@ -26,18 +26,21 @@
         <div class="row text-center">
           <div class="col-md-12">
             <img src="./assets/logo/logo.png" alt="" />
-            <h1>WELCOME</h1>
-            <h1>TO DELANI STUDIO</h1>
+            <h2 class="m-4">WELCOME</h2>
+            <h2>TO DELANI STUDIO</h2>
             <p>
               AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
             </p>
-            <img src="./assets/mouse_click.png" alt="" />
+            <div class="mouse-click ">
+              <img class="mb-4" src="./assets/mouse_click.png" alt="" />
+            </div>
+          
           </div>
         </div>
       </div>
 
-      <div class="container about text-center mt-5">
-        <h1>ABOUT US</h1>
+      <div class="container about text-center my-5">
+        <h2>ABOUT US</h2>
         <p>
           When you work with us, you are part of a team of commited
           collaborators. All aspects of our software development process are
@@ -54,7 +57,7 @@
         <p>we help translate them into active and elegant solutions.</p>
       </div>
       <div class="container-fluid services text-center">
-        <h1>SERVICES</h1>
+        <h2>SERVICES</h2>
         <p>
           Before we sign a contract or write a line of code, our team will spend
           the neccessary time needed to understand your product vission.
@@ -68,19 +71,22 @@
           the piece you need.
         </p>
       </div>
-      <div class="container work text-center">
+      <div class="container-fluid work text-center">
         <h2>WHAT WE DO</h2>
-        <div class="row my-5 text-center">
+        <div class="row my-3 text-center">
           <div class="col-md-4">
             <div class="card p-5">
-              <img
-                src="./assets/services_icons/design_icon.png"
-                class="img-fluid"
-                alt=""
-              />
-              <h4>DESIGN</h4>
+              <div class="card-show">
+                <img
+                  src="./assets/services_icons/design_icon.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <h4>DESIGN</h4>
+              </div>
+
               <div class="card-hidden">
-                <h1>DESIGN</h1>
+                <p class="title">DESIGN</p>
                 <p>
                   Our design practice offers a full range of services including
                   brand strategy, interaction and visual design and user
@@ -96,14 +102,17 @@
           </div>
           <div class="col-md-4">
             <div class="card p-5">
-              <img
-                src="./assets/services_icons/dev_icon.png"
-                class="img-fluid"
-                alt=""
-              />
-              <h4>DEVELOPMENT</h4>
+              <div class="card-show">
+                <img
+                  src="./assets/services_icons/dev_icon.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <h4>DEVELOPMENT</h4>
+              </div>
+
               <div class="card-hidden">
-                <h1>DEVELOPMENT</h1>
+                <p class="title">DEVELOPMENT</p>
                 <p>
                   All engineers are fluent in the latest enterprise, mobile and
                   web development technologies.
@@ -118,14 +127,17 @@
           </div>
           <div class="col-md-4">
             <div class="card p-5">
-              <img
-                src="./assets/services_icons/product_icon.png"
-                class="img-fluid"
-                alt=""
-              />
-              <h4>PRODUCT MANAGEMENT</h4>
+              <div class="card-show">
+                <img
+                  src="./assets/services_icons/product_icon.png"
+                  class="img-fluid"
+                  alt=""
+                />
+                <h4>PRODUCT MANAGEMENT</h4>
+              </div>
+
               <div class="card-hidden">
-                <h1>PRODUCT MANAGEMENT</h1>
+                <p class="title">PRODUCT MANAGEMENT</p>
                 <p>
                   All engineers are fluent in the latest enterprise, mobile and
                   web development technologies.
@@ -143,71 +155,96 @@
 
       <div class="container text-center portfolio">
         <h2>PORTFOLIO</h2>
-        <div class="row m-4">
-          <div class="col-md-12 mb-5">
-            <img src="./assets/portfolio/work4.jpg" alt="" />
-            <img src="./assets/portfolio/work3.jpg" alt="" />
-            <img src="./assets/portfolio/work2.jpg" alt="" />
-            <img src="./assets/portfolio/work1.jpg" alt="" />
+        <div class="row m-3">
+          <div class="col-md-12 text-center mb-5">
+            <div id="overlay1">
+              <img src="./assets/portfolio/work4.jpg" alt="" />
+              <p id="overlay-text1">Darkroom</p>
+            </div>
+            <div id="overlay2">
+              <img src="./assets/portfolio/work3.jpg" alt="" />
+              <p id="overlay-text2">Ontario security</p>
+            </div>
+            <div id="overlay3">
+              <img src="./assets/portfolio/work2.jpg" alt="" />
+              <p id="overlay-text3">Sunshine</p>
+            </div>
+            <div id="overlay4">
+              <img src="./assets/portfolio/work1.jpg" alt="" />
+              <p id="overlay-text4">Social</p>
+            </div>
           </div>
           <div class="col-md-12">
-            <img src="./assets/portfolio/work5.jpg" alt="" />
-            <img src="./assets/portfolio/work6.jpg" alt="" />
-            <img src="./assets/portfolio/work7.jpg" alt="" />
-            <img src="./assets/portfolio/work8.jpg" alt="" />
+            <div id="overlay5">
+              <img src="./assets/portfolio/work5.jpg" alt="" />
+              <p id="overlay-text5">Elena</p>
+            </div>
+            <div id="overlay6">
+              <img src="./assets/portfolio/work6.jpg" alt="" />
+              <p id="overlay-text6">Calculator app</p>
+            </div>
+            <div id="overlay7">
+              <img src="./assets/portfolio/work7.jpg" alt="" />
+              <p id="overlay-text7">Burned</p>
+            </div>
+            <div id="overlay8">
+              <img src="./assets/portfolio/work8.jpg" alt="" />
+              <p id="overlay-text8">Giraffe Restaraunt</p>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="container-fluid contactForm text-center text-white pt-5">
-        <h2>CONTACT US</h2>
+        <h2 class="mb-5">CONTACT US</h2>
         <form>
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Name" />
+                <input type="text" class="form-control" placeholder="Name..." />
               </div>
             </div>
             <div class="col-md-6">
               <div class="form-group">
-                <input type="email" class="form-control" placeholder="Email" />
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Email..."
+                />
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12 " >
+            <div class="col-md-12">
               <div class="form-group">
                 <textarea
                   type="text"
                   class="form-control"
-                  placeholder="Your message"
-                  rows="11" 
+                  placeholder="Your message here..."
+                  rows="11"
                 ></textarea>
               </div>
             </div>
-            <button type="submit" class="btn btn-outline-light">
-              Submit
-            </button>
+            <button type="submit" class="btn btn-outline-light">Submit</button>
           </div>
         </form>
-      </div> 
+      </div>
       <div class="container-fluid footer">
         <div class="icons">
-        <img src="./assets/social_icons/twitter.png" alt="" />
-        <img src="./assets/social_icons/dribble.png" alt="" />
-        <img src="./assets/social_icons/facebook.png" alt="" />
-        <img src="./assets/social_icons/g_plus.png" alt="" />
-        <img src="./assets/social_icons/skype.png" alt="" />
-        <img src="./assets/social_icons/stumble_upon.png" alt="" />
-        <img src="./assets/social_icons/behance.png" alt="" />
-        <img src="./assets/social_icons/pinterest.png" alt="" />
-        <img src="./assets/social_icons/flickr.png" alt="" />
-      </div>
-      <div>
-        <h2>DELANI STUDIO</h2>
-        <h2>2019</h2>
-      </div>
-      
+          <img src="./assets/social_icons/twitter.png" alt="" />
+          <img src="./assets/social_icons/dribble.png" alt="" />
+          <img src="./assets/social_icons/facebook.png" alt="" />
+          <img src="./assets/social_icons/g_plus.png" alt="" />
+          <img src="./assets/social_icons/skype.png" alt="" />
+          <img src="./assets/social_icons/stumble_upon.png" alt="" />
+          <img src="./assets/social_icons/behance.png" alt="" />
+          <img src="./assets/social_icons/pinterest.png" alt="" />
+          <img src="./assets/social_icons/flickr.png" alt="" />
+        </div>
+        <div>
+          <h2>DELANI STUDIO</h2>
+          <h2>2019</h2>
+        </div>
       </div>
     </div>
   </body>

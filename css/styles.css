@@ -22,10 +22,36 @@ body {
   background-repeat: no-repeat;
   position: relative;
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.header h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.header p {
+  font-size: 18px;
+}
+.header .mouse-click {
+
+}
+.header .mouse-click img {
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+
 }
 
 .about {
   padding: 0px 120px;
+}
+.about h2 {
+  font-weight: 600;
+}
+.about p {
+  font-size: 21px;
 }
 
 .services {
@@ -35,10 +61,25 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.services h2 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+.services p {
+  font-size: 21px;
 }
 
 .work {
+  margin-top: 28px;
+}
+.work h2 {
+  margin-top: 20px;
+  font-weight: 600;
 }
 .work img {
   height: 100px;
@@ -49,8 +90,20 @@ body {
   justify-content: center;
   align-items: center;
 }
-.card-hidden {
+.card-show {
   display: none;
+}
+.card-show h4 {
+  font-size: 23px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.card-hidden {
+  font-size: 21px;
+}
+.card-hidden .title {
+  font-size: 23px;
+  font-weight: 600;
 }
 
 .portfolio {
@@ -61,6 +114,43 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.portfolio .row .col-md-12 {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#overlay1,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#overlay-text1,
+#overlay-text2,
+#overlay-text3,
+#overlay-text4,
+#overlay-text5,
+#overlay-text6,
+#overlay-text7,
+#overlay-text8 {
+  font-size: 23px;
+  font-weight: 600;
+  position: absolute;
+  top: 90px;
+  left: 85px;
 }
 
 .portfolio img {
@@ -87,8 +177,8 @@ body {
 }
 .col-md-6 input {
   background: transparent;
-
   color: #fff;
+  font-size: 20px;
 }
 .contactForm textarea {
   width: 70%;
@@ -96,6 +186,7 @@ body {
   margin: 0px auto;
   margin-bottom: 20px;
   color: #fff;
+  font-size: 20px;
 }
 
 .contactForm button {
@@ -111,12 +202,15 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 20vh;
-  margin: 20px;
+  margin: 25px 20px;
 }
-.footer .icons{
+.footer .icons {
   margin-bottom: 20px;
 }
-.footer h2{
-font-weight: 500;
+.footer .icons img {
+  margin: 10px;
+}
+.footer h2 {
+  font-weight: 400;
   font-size: 25px;
 }
