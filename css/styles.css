@@ -34,14 +34,11 @@ body {
 .header p {
   font-size: 18px;
 }
-.header .mouse-click {
 
-}
 .header .mouse-click img {
   height: 50px;
   position: absolute;
   bottom: 0;
-
 }
 
 .about {
@@ -91,15 +88,17 @@ body {
   align-items: center;
 }
 .card-show {
-  display: none;
 }
 .card-show h4 {
   font-size: 23px;
   margin-top: 20px;
   font-weight: 600;
 }
-.card-hidden {
+.card-hidden1,
+.card-hidden2,
+.card-hidden3 {
   font-size: 21px;
+  display: none;
 }
 .card-hidden .title {
   font-size: 23px;
@@ -146,16 +145,21 @@ body {
 #overlay-text6,
 #overlay-text7,
 #overlay-text8 {
-  font-size: 23px;
+  font-size: 25px;
   font-weight: 600;
   position: absolute;
   top: 90px;
-  left: 85px;
+  left: 70px;
+
 }
 
 .portfolio img {
   height: 210px;
   margin: 14px;
+}
+
+.overlay-effect {
+  opacity: 0.3;
 }
 
 .contactForm {
