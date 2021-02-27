@@ -80,15 +80,13 @@ body {
   display: flex;
   justify-content: center;
   margin: 0px 150px;
-
 }
-.col-md-6{
+.col-md-6 {
   width: 40%;
   margin-bottom: 30px;
-  
 }
 .col-md-6 input {
-  background:transparent;
+  background: transparent;
 
   color: #fff;
 }
@@ -104,6 +102,21 @@ body {
   width: 100px;
   justify-self: flex-start;
 }
-.form-control::-webkit-input-placeholder { 
-  color: white; 
+.form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 20vh;
+  margin: 20px;
+}
+.footer .icons{
+  margin-bottom: 20px;
+}
+.footer h2{
+font-weight: 500;
+  font-size: 25px;
 }
