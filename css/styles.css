@@ -12,6 +12,7 @@ body {
   height: 100%;
   width: 100%;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .header {
@@ -40,6 +41,20 @@ body {
   position: absolute;
   bottom: 0;
 }
+
+/* .mouse-click img {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    
+  }
+  100% {
+    
+
+  }
+} */
 
 .about {
   padding: 0px 120px;
@@ -137,30 +152,43 @@ body {
   justify-content: center;
 }
 
-#overlay-text1,
-#overlay-text2,
-#overlay-text3,
-#overlay-text4,
-#overlay-text5,
-#overlay-text6,
-#overlay-text7,
-#overlay-text8 {
-  font-size: 25px;
-  font-weight: 600;
+#work-overlay1,
+#work-overlay2,
+#work-overlay3,
+#work-overlay4,
+#work-overlay5,
+#work-overlay6,
+#work-overlay7,
+#work-overlay8 {
   position: absolute;
-  top: 90px;
-  left: 70px;
+  left: 29px;
+  border: 3px solid white;
+  width: 80%;
+  color: #000;
   display: none;
+  opacity: 4;
 }
 
-.portfolio img {
-  height: 210px;
-  margin: 14px;
+.overlay-text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
 }
 
 .overlay-effect {
   opacity: 0.3;
 }
+
+.portfolio h2 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+.portfolio img {
+  height: 210px;
+  margin: 14px;
+}
+
+
 
 .contactForm {
   height: 80vh;
@@ -179,18 +207,21 @@ body {
   width: 40%;
   margin-bottom: 30px;
 }
-.col-md-6 input {
+input[type="text"],
+input[type="text"]:focus,
+input[type="email"],
+input[type="email"]:focus,
+textarea[type="text"],
+textarea[type="text"]:focus {
   background: transparent;
   color: #fff;
   font-size: 20px;
+  outline: none;
 }
 .contactForm textarea {
   width: 70%;
-  background: transparent;
   margin: 0px auto;
   margin-bottom: 20px;
-  color: #fff;
-  font-size: 20px;
 }
 
 .contactForm button {

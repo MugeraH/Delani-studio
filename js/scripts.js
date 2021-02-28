@@ -19,10 +19,10 @@ $(document).ready(function() {
     for(let overlayNumber = 1; overlayNumber<=overlayTotalNumber;overlayNumber++){
         $(`#overlay${overlayNumber}`).mouseover(function() {
         $(`#overlay${overlayNumber} > img`).addClass("overlay-effect");
-        $(`#overlay-text${overlayNumber}`).toggle();
+        $(`#work-overlay${overlayNumber}`).toggle();
       }).mouseout(function(){
         $(`#overlay${overlayNumber} > img`).removeClass("overlay-effect");
-        $(`#overlay-text${overlayNumber}`).toggle();
+        $(`#work-overlay${overlayNumber}`).toggle();
       });
     }
   
