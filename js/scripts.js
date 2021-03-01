@@ -1,13 +1,17 @@
 $(document).ready(function() {
 
 
-
-  $("form").submit(function(event) {
-    event.preventDefault();
-
-
-
-  
+  $("form#mc-embedded-subscribe-form").submit(function(event) {
+  //event.preventDefault();
+    let name = $("input#FNAME").val();
+    let email = $("input#mce-Email").val();
+    let message = $("textarea").val();
+    if ( name && email){
+      alert (`Hi ${name} we have received your message. Thank you for reaching out to us.`);
+    }
+    else {
+      alert("Please enter your name and email!");
+    }
   });
 
   let cardTotalNumber =(
