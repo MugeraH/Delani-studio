@@ -199,7 +199,7 @@ textarea[type="text"]:focus {
 }
 .contactForm textarea {
   width: 70%;
-  height: 280px;
+  height: 250px;
   margin: 0px auto;
   margin-bottom: 20px;
 }
