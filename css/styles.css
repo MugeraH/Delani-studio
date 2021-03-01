@@ -37,24 +37,11 @@ body {
 }
 
 .header .mouse-click img {
-  height: 50px;
+  height: 45px;
   position: absolute;
   bottom: 0;
 }
 
-/* .mouse-click img {
-  animation: pulse 5s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    
-  }
-  100% {
-    
-
-  }
-} */
 
 .about {
   padding: 0px 120px;
@@ -115,7 +102,7 @@ body {
   font-size: 21px;
   display: none;
 }
-.card-hidden .title {
+.title {
   font-size: 23px;
   font-weight: 600;
 }
@@ -205,7 +192,7 @@ body {
 }
 .col-md-6 {
   width: 40%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 input[type="text"],
 input[type="text"]:focus,
@@ -220,6 +207,7 @@ textarea[type="text"]:focus {
 }
 .contactForm textarea {
   width: 70%;
+  height: 340px;
   margin: 0px auto;
   margin-bottom: 20px;
 }
