@@ -38,12 +38,9 @@ Visit the live site [Here](https://mugerah.github.io/Delani-studio/)
 
 ## Behaviour Driven Development
 
-| Behavior| input | output |
-| -------- | -------- | -------- |
-|User inputs name and email clicks on the submit button.On submit,validation is done first,then a message acknowledging the reciept of the message is outputted.Validation-On submit if there is any missing value in the fields, user gets an alert asking them to fill the missing value.| User types in their name, email address and their message    | User recieves message alerting them that their message has been recieved and also if their email hac been added to mail list  |
-
-
-
+| Behavior                                                                                                                                                                                                                                                                                   | input                                                     | output                                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| User inputs name and email clicks on the submit button.On submit,validation is done first,then a message acknowledging the reciept of the message is outputted.Validation-On submit if there is any missing value in the fields, user gets an alert asking them to fill the missing value. | User types in their name, email address and their message | User recieves message alerting them that their message has been recieved and also if their email has been added to mail list |
 
 ## Author
 
